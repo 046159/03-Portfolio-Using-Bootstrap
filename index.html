@@ -10,12 +10,13 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <!-- Start of Navbar section -->
     <section>
       <div>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar fixed-top navbar-expand-lg bg-primary">
           <div class="container-fluid">
             <a class="navbar-brand" href="#"></a>
             <button
@@ -45,7 +46,7 @@
 
     <!-- Start of About Me section -->
     <section>
-      <div class="container">
+      <div class="container mt-5 mb-3">
         <div class="row">
           <div class="col-2">
             <img
@@ -57,7 +58,33 @@
           <div class="col-10">
             <div class="mt-4 text-black rounded">
               <h1>About Me</h1>
-              <p>Add text here...</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                varius tincidunt urna at tristique. Pellentesque iaculis velit
+                et arcu tempus vulputate. Cras tempus pretium justo, a placerat
+                risus blandit at. Curabitur molestie ex eu sem placerat, sit
+                amet consequat metus porttitor. Donec ullamcorper quam ac lectus
+                porta, eu fermentum urna dictum. Donec vulputate nisl at leo
+                posuere bibendum. Integer tristique tempus nibh id euismod.
+                Vestibulum eget iaculis lacus, egestas volutpat dui. Curabitur
+                felis augue, cursus vulputate nisi at, finibus bibendum risus.
+                Fusce orci urna, sodales vitae ullamcorper ac, scelerisque at
+                odio. Vivamus nec erat ut dolor gravida ornare. Proin mollis
+                tempus orci, suscipit facilisis lacus tincidunt ac. Suspendisse
+                potenti. Mauris nec auctor enim, non rutrum est. Suspendisse ac
+                finibus enim, vitae feugiat lacus. Etiam lacinia imperdiet eros
+                in egestas.
+              </p>
+              <p>
+                Mauris felis lectus, suscipit vitae fringilla ac, pellentesque
+                sit amet orci. Pellentesque tristique mi mi, eu fringilla odio
+                blandit ac. Vivamus finibus quam non elit mollis, sed suscipit
+                odio semper. Praesent a ultrices urna. Aliquam semper tincidunt
+                lectus et mollis. Mauris placerat ex urna, et eleifend lectus
+                pharetra at. Proin leo mi, tristique ac blandit quis, semper nec
+                quam. Ut in leo ut nisl sagittis scelerisque. Pellentesque
+                egestas iaculis odio sed hendrerit.
+              </p>
               <button type="button" class="btn btn-primary">Download CV</button>
             </div>
           </div>
@@ -68,81 +95,187 @@
 
     <!-- Start of Work Section -->
     <section>
-      <h1>Work</h1>
-      <p>This section contains...</p>
       <div class="container">
+        <h1>Work</h1>
+        <p>
+          This section showcases the two projects I have created since the start
+          of the bootcamp, along with a link to my GitHub.
+        </p>
         <div class="row">
           <div class="col-12 col-lg-4 col-md-6">
-            <div class="card" style="width: 18rem">
+            <div class="card h-100" style="width: 18rem">
               <img
                 class="card-img-top"
                 src="./images/horiseon.png"
                 alt="Horiseon website"
               />
               <div class="card-body">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                <p class="card-text text-center">
+                  This is the first project I worked on. The objective of the
+                  challenge was to streamline the HTML and CSS code and using
+                  GitHub. Additional projects will be added here as they are
+                  developed.
                 </p>
-                <a
-                  href="https://046159.github.io/challenge1/"
-                  class="btn btn-primary stretched-link"
-                  >Visit Horiseon website</a
-                >
+                <div class="text-center">
+                  <a
+                    href="https://046159.github.io/challenge1/"
+                    class="btn btn-primary stretched-link"
+                    >Visit Horiseon website</a
+                  >
+                </div>
               </div>
             </div>
           </div>
           <div class="col-12 col-lg-4 col-md-6">
-            <div class="card" style="width: 18rem">
+            <div class="card h-100" style="width: 18rem">
               <img
                 class="card-img-top"
                 src="./images/portfolio-challenge.png"
                 alt="Original portfolio website"
               />
               <div class="card-body">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                <p class="card-text text-center">
+                  This was the second project I worked on. The objective was to
+                  develop a portfolio website using just HTML and CSS, without
+                  Bootstrap. I created this website using mainly CSS Grid, with
+                  a little bit of CSS Flex.
                 </p>
-                <a
-                  href="https://046159.github.io/challenge2/"
-                  class="btn btn-primary stretched-link"
-                  >Visit original portfolio website</a
-                >
+                <div class="text-center">
+                  <a
+                    href="https://046159.github.io/challenge2/"
+                    class="btn btn-primary stretched-link"
+                    >Visit portfolio website</a
+                  >
+                </div>
               </div>
             </div>
           </div>
           <div class="col-12 col-lg-4 col-md-6">
-            <div class="card" style="width: 18rem">
+            <div class="card h-100" style="width: 18rem">
               <img
                 class="card-img-top"
                 src="./images/GitHub.jpeg"
                 alt="My GitHub"
               />
               <div class="card-body">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                <p class="card-text text-center">
+                  This is a link to my GitHub.
                 </p>
-                <a
-                  href="https://github.com/046159"
-                  class="btn btn-primary stretched-link"
-                  >Visit my GitHub</a
-                >
+                <div class="text-center">
+                  <a
+                    href="https://github.com/046159"
+                    class="btn btn-primary stretched-link"
+                    >Visit my GitHub</a
+                  >
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- End of Work Section -->
+    <!-- End of Work section -->
 
-    <script>
-      src =
-        "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js";
-      integrity =
-        "sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL";
-      crossorigin = "anonymous";
-    </script>
+    <!-- Start of Skills section -->
+    <section>
+      <h1>Skills</h1>
+      <p>This section...</p>
+      <div class="container">
+        <div class="row">
+          <!-- Start -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100" style="width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">HTML</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content:
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- End -->
+
+          <!-- Start -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100" style="width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">CSS</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content:
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- End -->
+
+          <!-- Start -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100" style="width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">JavaScript</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content:
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- End -->
+
+          <!-- Start -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100" style="width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">Git</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content:
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- End -->
+
+          <!-- Start -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100" style="width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">Bootstrap</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content:
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- End -->
+        </div>
+      </div>
+    </section>
+    <!-- End of Skills section -->
+
+    <!-- Start of Contact Me section-->
+    <section>
+      <h1>Contact Me</h1>
+      <div class="container">
+        <div class="container text-center">
+          <div class="row align-items-center">
+            <div class="col">sardar.jafari@gmail.com</div>
+            <div class="col">07900606229</div>
+            <div class="col">LinkedIn</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End of Contact Me Section -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

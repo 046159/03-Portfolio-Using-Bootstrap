@@ -9,527 +9,387 @@
 
 <!DOCTYPE html>
 <html lang="en">
+<!-- Start of Head section -->
 
-  <!-- Start of Head section -->
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio - Bootstrap</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
-  <!-- End of Head section -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio - Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<!-- End of Head section -->
 
-  <!-- Start of Body section -->
-  <body>
+<!-- Start of Body section -->
 
-    <!-- Start of Navbar section -->
-    <section>
-      <div>
-        <nav class="navbar navbar-expand-lg bg-primary">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">Sardar Jafari</a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNavAltMarkup"
-              aria-controls="navbarNavAltMarkup"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
+<body>
+  <!-- Start of Navbar Div -->
+  <div>
+    <nav class="navbar navbar-expand-lg bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Sardar Jafari</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#aboutMe">About Me</a>
+            <a class="nav-link" href="#work">Work</a>
+            <a class="nav-link" href="#skills">Skills</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!-- End of Navbar Div -->
+
+  <!-- Start of About Me section -->
+  <section id="aboutMe">
+    <div class="container mt-5 mb-3">
+      <!-- Start of Row section -->
+      <div class="row">
+        <!-- Start of Column 1 : Photo-->
+        <div class="col-2">
+          <img src="./images/photo.jpeg" class="mt-4 img-fluid rounded" alt="Photo of Sardar Jafari">
+        </div>
+        <!-- End of Column 1 : Photo -->
+
+        <!-- Start of Column 2 : About Me text -->
+        <div class="col-10">
+          <div class="mt-4 text-black rounded">
+            <h1>About Me</h1>
+            <p class="fs-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+              varius tincidunt urna at tristique. Pellentesque iaculis velit
+              et arcu tempus vulputate. Cras tempus pretium justo, a placerat
+              risus blandit at. Curabitur molestie ex eu sem placerat, sit
+              amet consequat metus porttitor. Donec ullamcorper quam ac lectus
+              porta, eu fermentum urna dictum. Donec vulputate nisl at leo
+              posuere bibendum. Integer tristique tempus nibh id euismod.
+              Vestibulum eget iaculis lacus, egestas volutpat dui. Curabitur
+              felis augue, cursus vulputate nisi at, finibus bibendum risus.
+              Fusce orci urna, sodales vitae ullamcorper ac, scelerisque at
+              odio. Vivamus nec erat ut dolor gravida ornare. Proin mollis
+              tempus orci, suscipit facilisis lacus tincidunt ac. Suspendisse
+              potenti. Mauris nec auctor enim, non rutrum est. Suspendisse ac
+              finibus enim, vitae feugiat lacus. Etiam lacinia imperdiet eros
+              in egestas.
+            </p>
+            <p class="fs-5">
+              Mauris felis lectus, suscipit vitae fringilla ac, pellentesque
+              sit amet orci. Pellentesque tristique mi mi, eu fringilla odio
+              blandit ac. Vivamus finibus quam non elit mollis, sed suscipit
+              odio semper. Praesent a ultrices urna. Aliquam semper tincidunt
+              lectus et mollis. Mauris placerat ex urna, et eleifend lectus
+              pharetra at. Proin leo mi, tristique ac blandit quis, semper nec
+              quam. Ut in leo ut nisl sagittis scelerisque. Pellentesque
+              egestas iaculis odio sed hendrerit.
+            </p>
+
+            <!-- Start of Download CV button -->
+            <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top"
+              title="This button has yet to be coded, and currently doesn't do anything.">
+              Download CV
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
-                <a class="nav-link" href="#aboutMe">About Me</a>
-                <a class="nav-link" href="#work">Work</a>
-                <a class="nav-link" href="#skills">Skills</a>
-              </div>
-            </div>
+            <!-- End of Download CV button -->
           </div>
-        </nav>
+        </div>
+        <!-- End of Column 2 : About Me text -->
       </div>
-    </section>
-    <!-- End of Navbar section -->
+      <!-- End of Row section -->
+    </div>
+  </section>
+  <!-- End of About Me section -->
 
-    <!-- Start of About Me section -->
-    <section id="aboutMe">
-      <div class="container mt-5 mb-3">
+  <!-- Start of Work section -->
+  <section id="work">
+    <div class="container mt-3 mb-3">
+      <h1>Work</h1>
+      <p>
+        This section showcases the two projects I have created since the start
+        of the bootcamp, along with a link to my GitHub.
+      </p>
 
-        <!-- Start of Row section -->
-        <div class="row">
-
-          <!-- Start of Column 1 : Photo-->
-          <div class="col-2">
-            <img
-              src="./images/photo.jpeg"
-              class="mt-4 img-fluid rounded"
-              alt="Photo of Sardar Jafari"
-            />
-            <figcaption class="figure-caption">
-              Sardar Jafari
-            </figcaption>
-          </div>
-          <!-- End of Column 1 : Photo -->
-
-          <!-- Start of Column 2 : About Me text -->
-          <div class="col-10">
-            <div class="mt-4 text-black rounded">
-              <h1>About Me</h1>
-              <p class="fs-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                varius tincidunt urna at tristique. Pellentesque iaculis velit
-                et arcu tempus vulputate. Cras tempus pretium justo, a placerat
-                risus blandit at. Curabitur molestie ex eu sem placerat, sit
-                amet consequat metus porttitor. Donec ullamcorper quam ac lectus
-                porta, eu fermentum urna dictum. Donec vulputate nisl at leo
-                posuere bibendum. Integer tristique tempus nibh id euismod.
-                Vestibulum eget iaculis lacus, egestas volutpat dui. Curabitur
-                felis augue, cursus vulputate nisi at, finibus bibendum risus.
-                Fusce orci urna, sodales vitae ullamcorper ac, scelerisque at
-                odio. Vivamus nec erat ut dolor gravida ornare. Proin mollis
-                tempus orci, suscipit facilisis lacus tincidunt ac. Suspendisse
-                potenti. Mauris nec auctor enim, non rutrum est. Suspendisse ac
-                finibus enim, vitae feugiat lacus. Etiam lacinia imperdiet eros
-                in egestas.
+      <!-- Start of Row section -->
+      <div class="row">
+        <!-- Start of Card 1 -->
+        <div class="col-12 col-lg-4 col-md-6 mb-3">
+          <div class="card h-100 text-dark bg-info mb-3" style="width: 18rem">
+            <img class="card-img-top" src="./images/horiseon.png" alt="Horiseon website">
+            <div class="card-body">
+              <p class="card-text text-center">
+                This is the first project I worked on. The objective of the
+                challenge was to streamline the HTML and CSS code and using
+                GitHub. Additional projects will be added here as they are
+                developed.
               </p>
-              <p fs-4>
-                Mauris felis lectus, suscipit vitae fringilla ac, pellentesque
-                sit amet orci. Pellentesque tristique mi mi, eu fringilla odio
-                blandit ac. Vivamus finibus quam non elit mollis, sed suscipit
-                odio semper. Praesent a ultrices urna. Aliquam semper tincidunt
-                lectus et mollis. Mauris placerat ex urna, et eleifend lectus
-                pharetra at. Proin leo mi, tristique ac blandit quis, semper nec
-                quam. Ut in leo ut nisl sagittis scelerisque. Pellentesque
-                egestas iaculis odio sed hendrerit.
+              <div class="text-center">
+                <a href="https://046159.github.io/challenge1/" target="_blank" class="btn btn-primary stretched-link"
+                  data-toggle="tooltip" data-placement="top" title="This will launch the website in a new window.">Visit
+                  Horiseon website</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End of Card 1 -->
+
+        <!-- Start of Card 2 -->
+        <div class="col-12 col-lg-4 col-md-6 mb-3">
+          <div class="card h-100 text-dark bg-info mb-3" style="width: 18rem">
+            <img class="card-img-top" src="./images/portfolio-challenge.png" alt="Original portfolio website">
+            <div class="card-body">
+              <p class="card-text text-center">
+                This was the second project I worked on. The objective was to
+                develop a portfolio website using just HTML and CSS, without
+                Bootstrap. I created this website using mainly CSS Grid, with
+                a little bit of CSS Flex.
               </p>
-
-              <!-- Start of Download CV button -->
-              <button
-                type="button"
-                class="btn btn-primary"
-                data-toggle="tooltip"
-                data-placement="top"
-                title="This button has yet to be coded, and currently doesn't do anything."
-              >
-                Download CV
-              </button>
-              <!-- End of Download CV button -->
-
+              <div class="text-center">
+                <a href="https://046159.github.io/challenge2/" target="_blank" class="btn btn-primary stretched-link"
+                  data-toggle="tooltip" data-placement="top" title="This will launch the website in a new window.">Visit
+                  portfolio website</a>
+              </div>
             </div>
           </div>
-          <!-- End of Column 2 : About Me text -->
-
         </div>
-        <!-- End of Row section -->
+        <!-- End of Card 2 -->
 
-      </div>
-    </section>
-    <!-- End of About Me section -->
-
-    <!-- Start of Work section -->
-    <section id="work">
-      <div class="container mt-3 mb-3">
-        <h1>Work</h1>
-        <p>
-          This section showcases the two projects I have created since the start
-          of the bootcamp, along with a link to my GitHub.
-        </p>
-
-        <!-- Start of Row section -->
-        <div class="row">
-
-          <!-- Start of Card 1 -->
-          <div class="col-12 col-lg-4 col-md-6 mb-3">
-            <div class="card h-100 text-dark bg-info mb-3" style="width: 18rem">
-              <img
-                class="card-img-top"
-                src="./images/horiseon.png"
-                alt="Horiseon website"
-              />
-              <div class="card-body">
-                <p class="card-text text-center">
-                  This is the first project I worked on. The objective of the
-                  challenge was to streamline the HTML and CSS code and using
-                  GitHub. Additional projects will be added here as they are
-                  developed.
-                </p>
-                <div class="text-center">
-                  <a
-                    href="https://046159.github.io/challenge1/"
-                    target="_blank"
-                    class="btn btn-primary stretched-link"
-                    data-toggle="tooltip"
-                    data-placement="top"
-                    title="This will launch the website in a new window."
-                    >Visit Horiseon website</a
-                  >
-                </div>
+        <!-- Start of Card 3 -->
+        <div class="col-12 col-lg-4 col-md-6 mb-3">
+          <div class="card h-100 text-dark bg-info mb-3" style="width: 18rem">
+            <img class="card-img-top" src="./images/GitHub.jpeg" alt="My GitHub">
+            <div class="card-body">
+              <p class="card-text text-center">
+                This is a link to my GitHub.
+              </p>
+              <div class="text-center">
+                <a href="https://github.com/046159" target="_blank" class="btn btn-primary stretched-link"
+                  data-toggle="tooltip" data-placement="top" title="This will launch the website in a new window.">Visit
+                  my GitHub</a>
               </div>
             </div>
           </div>
-          <!-- End of Card 1 -->
-
-          <!-- Start of Card 2 -->
-          <div class="col-12 col-lg-4 col-md-6 mb-3">
-            <div class="card h-100 text-dark bg-info mb-3" style="width: 18rem">
-              <img
-                class="card-img-top"
-                src="./images/portfolio-challenge.png"
-                alt="Original portfolio website"
-              />
-              <div class="card-body">
-                <p class="card-text text-center">
-                  This was the second project I worked on. The objective was to
-                  develop a portfolio website using just HTML and CSS, without
-                  Bootstrap. I created this website using mainly CSS Grid, with
-                  a little bit of CSS Flex.
-                </p>
-                <div class="text-center">
-                  <a
-                    href="https://046159.github.io/challenge2/"
-                    target="_blank"
-                    class="btn btn-primary stretched-link"
-                    data-toggle="tooltip"
-                    data-placement="top"
-                    title="This will launch the website in a new window."
-                    >Visit portfolio website</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- End of Card 2 -->
-
-          <!-- Start of Card 3 -->
-          <div class="col-12 col-lg-4 col-md-6 mb-3">
-            <div class="card h-100 text-dark bg-info mb-3" style="width: 18rem">
-              <img
-                class="card-img-top"
-                src="./images/GitHub.jpeg"
-                alt="My GitHub"
-              />
-              <div class="card-body">
-                <p class="card-text text-center">
-                  This is a link to my GitHub.
-                </p>
-                <div class="text-center">
-                  <a
-                    href="https://github.com/046159"
-                    target="_blank"
-                    class="btn btn-primary stretched-link"
-                    data-toggle="tooltip"
-                    data-placement="top"
-                    title="This will launch the website in a new window."
-                    >Visit my GitHub</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- End of Card 3 -->
-
         </div>
-        <!-- End of Row section -->
-
+        <!-- End of Card 3 -->
       </div>
-    </section>
-    <!-- End of Work section -->
+      <!-- End of Row section -->
+    </div>
+  </section>
+  <!-- End of Work section -->
 
-    <!-- Start of Skills section -->
-    <section id="skills">
-      <div class="container mt-3 mb-3">
-        <h1>Skills</h1>
+  <!-- Start of Skills section -->
+  <section id="skills">
+    <div class="container mt-3 mb-3">
+      <h1>Skills</h1>
 
-        <!-- Start of Accordion section -->
-        <div class="accordion" id="accordionSkills">
-
-          <!-- Start of first accordion section (HTML) -->
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button fw-bold"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseOne"
-                aria-expanded="true"
-                aria-controls="collapseOne"
-              >
-                HTML
-              </button>
-            </h2>
-            <div
-              id="collapseOne"
-              class="accordion-collapse collapse show"
-              data-bs-parent="#accordionSkills"
-            >
-              <div class="accordion-body">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                  tincidunt fermentum consequat. Nam ultricies purus eu mi
-                  pretium porttitor. Aenean eget imperdiet mi. Cras nec nisi
-                  egestas augue blandit convallis sed non sem. Sed mattis leo in
-                  tortor condimentum, vitae sollicitudin nibh commodo. Quisque
-                  sagittis a nisl non accumsan. Proin pellentesque mi non sapien
-                  facilisis cursus. Praesent at ante arcu. Fusce ut lectus ac
-                  eros bibendum sollicitudin. Vestibulum eget tincidunt sem.
-                  Praesent vel erat quis diam venenatis vehicula. Quisque eros
-                  felis, suscipit non ligula quis, lobortis sagittis mauris.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- End of first accordion section (HTML) -->
-
-          <!-- Start of second accordion section (CSS) -->
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed fw-bold"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseTwo"
-                aria-expanded="false"
-                aria-controls="collapseTwo"
-              >
-                CSS
-              </button>
-            </h2>
-            <div
-              id="collapseTwo"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionSkills"
-            >
-              <div class="accordion-body">
-                <p>
-                  Ut sed lobortis magna. Integer semper quam in mi auctor, at
-                  interdum nisi laoreet. Nulla hendrerit, ex sed tincidunt
-                  suscipit, sapien justo viverra ex, ac vestibulum odio elit
-                  vitae neque. Nulla fringilla, mauris sed varius sodales, felis
-                  quam suscipit tortor, ut eleifend enim ante porttitor ex. Cras
-                  nec semper enim. Nunc tincidunt, neque ac efficitur hendrerit,
-                  felis ex viverra ante, et malesuada lacus neque quis orci.
-                  Vivamus non lectus quis risus fermentum cursus tempor vitae
-                  nibh. Etiam convallis eros eget justo convallis tristique id
-                  non odio. Ut laoreet non neque eu condimentum. Praesent
-                  finibus egestas dignissim. Vivamus efficitur sem mauris, sed
-                  sollicitudin velit malesuada nec. Maecenas feugiat nunc a arcu
-                  facilisis, vitae posuere turpis congue. Nulla vitae ante non
-                  libero lacinia venenatis in id libero. Duis et purus euismod,
-                  sollicitudin lectus vel, facilisis metus. Aenean ornare, lorem
-                  ut mollis pulvinar, enim libero scelerisque mi, sit amet
-                  maximus velit nulla eget leo.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- End of second accordion section (CSS) -->
-
-          <!-- Start of third accordion section (JavaScript) -->
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed fw-bold"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseThree"
-                aria-expanded="false"
-                aria-controls="collapseThree"
-              >
-                JavaScript
-              </button>
-            </h2>
-            <div
-              id="collapseThree"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionSkills"
-            >
-              <div class="accordion-body">
-                <p>
-                  Aenean iaculis feugiat sollicitudin. Nam nec tellus et diam
-                  molestie fringilla. Praesent malesuada consectetur faucibus.
-                  Sed congue posuere enim. Etiam hendrerit ipsum sed elit
-                  suscipit ornare. Suspendisse ligula lorem, sodales eu
-                  convallis sed, faucibus sed lectus. Etiam interdum non dolor
-                  at maximus. Morbi nec sem neque. Fusce sed viverra lorem.
-                  Fusce vel sodales tellus, id vehicula ex. Vivamus ornare
-                  ultrices nulla.
-                </p>
-
-                <p>
-                  Aenean sollicitudin viverra turpis, sed viverra neque
-                  hendrerit vel. Nam at tincidunt velit, sed tristique nisl. In
-                  vel venenatis mi. Pellentesque ultricies congue accumsan. Nunc
-                  id interdum augue, et aliquet purus. Proin auctor turpis quis
-                  mi aliquet, ut iaculis dui vehicula. Sed quis massa nec neque
-                  lobortis venenatis in eget purus. Nunc neque nisi, suscipit eu
-                  semper vitae, porta vel augue. Sed facilisis ullamcorper
-                  nulla. Morbi convallis dolor at eleifend ullamcorper. Proin eu
-                  iaculis arcu. Nam nulla lorem, accumsan id magna a, tincidunt
-                  venenatis nisl. Etiam nec euismod leo. Integer rutrum
-                  condimentum tellus sit amet convallis.
-                </p>
-
-                <p>
-                  Etiam tempus vehicula mauris vel efficitur. Aliquam erat
-                  volutpat. Nullam in bibendum lorem, quis viverra risus. Cras
-                  tempor egestas turpis, ac mattis quam fringilla a. Integer eu
-                  turpis ex. Curabitur eleifend eu lacus id viverra. Cras
-                  aliquam quam et nisl pulvinar, sit amet posuere odio rhoncus.
-                  Donec venenatis tincidunt cursus. Donec molestie, nulla sed
-                  pharetra consectetur, nibh urna eleifend lorem, quis faucibus
-                  elit eros varius quam. Maecenas libero nisi, vulputate viverra
-                  orci non, commodo hendrerit ex. Quisque aliquet facilisis nisl
-                  facilisis ultrices. Sed quis fringilla purus. Vivamus
-                  ultricies porta neque, non feugiat lectus accumsan id. Class
-                  aptent taciti sociosqu ad litora torquent per conubia nostra,
-                  per inceptos himenaeos.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- End of third accordion section (JavaScript) -->
-
-        </div>
-        <!-- End of Accordion section -->
-
-      </div>
-    </section>
-
-    <!-- Start of Contact Me section-->
-    <section>
-
-      <!-- Start of container -->
-      <div class="container">
-        <h1 class="text-center">Contact Me</h1>
-
-        <!-- Start of section for contact methods -->
-        <div class="container text-center">
-          <div class="row align-items-center">
-
-            <!-- Start of email section -->
-            <div class="col">
+      <!-- Start of Accordion section -->
+      <div class="accordion" id="accordionSkills">
+        <!-- Start of first accordion section (HTML) -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              HTML
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionSkills">
+            <div class="accordion-body">
               <p>
-                <a
-                  href="mailto:sardar.jafari@gmail.com"
-                  class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
-                >
-                  sardar.jafari@gmail.com</a
-                >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                tincidunt fermentum consequat. Nam ultricies purus eu mi
+                pretium porttitor. Aenean eget imperdiet mi. Cras nec nisi
+                egestas augue blandit convallis sed non sem. Sed mattis leo in
+                tortor condimentum, vitae sollicitudin nibh commodo. Quisque
+                sagittis a nisl non accumsan. Proin pellentesque mi non sapien
+                facilisis cursus. Praesent at ante arcu. Fusce ut lectus ac
+                eros bibendum sollicitudin. Vestibulum eget tincidunt sem.
+                Praesent vel erat quis diam venenatis vehicula. Quisque eros
+                felis, suscipit non ligula quis, lobortis sagittis mauris.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- End of first accordion section (HTML) -->
 
-                <!-- Display envelope icon -->
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-envelope-fill"
-                  viewBox="0 0 16 16"
-                >
+        <!-- Start of second accordion section (CSS) -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              CSS
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionSkills">
+            <div class="accordion-body">
+              <p>
+                Ut sed lobortis magna. Integer semper quam in mi auctor, at
+                interdum nisi laoreet. Nulla hendrerit, ex sed tincidunt
+                suscipit, sapien justo viverra ex, ac vestibulum odio elit
+                vitae neque. Nulla fringilla, mauris sed varius sodales, felis
+                quam suscipit tortor, ut eleifend enim ante porttitor ex. Cras
+                nec semper enim. Nunc tincidunt, neque ac efficitur hendrerit,
+                felis ex viverra ante, et malesuada lacus neque quis orci.
+                Vivamus non lectus quis risus fermentum cursus tempor vitae
+                nibh. Etiam convallis eros eget justo convallis tristique id
+                non odio. Ut laoreet non neque eu condimentum. Praesent
+                finibus egestas dignissim. Vivamus efficitur sem mauris, sed
+                sollicitudin velit malesuada nec. Maecenas feugiat nunc a arcu
+                facilisis, vitae posuere turpis congue. Nulla vitae ante non
+                libero lacinia venenatis in id libero. Duis et purus euismod,
+                sollicitudin lectus vel, facilisis metus. Aenean ornare, lorem
+                ut mollis pulvinar, enim libero scelerisque mi, sit amet
+                maximus velit nulla eget leo.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- End of second accordion section (CSS) -->
+
+        <!-- Start of third accordion section (JavaScript) -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              JavaScript
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionSkills">
+            <div class="accordion-body">
+              <p>
+                Aenean iaculis feugiat sollicitudin. Nam nec tellus et diam
+                molestie fringilla. Praesent malesuada consectetur faucibus.
+                Sed congue posuere enim. Etiam hendrerit ipsum sed elit
+                suscipit ornare. Suspendisse ligula lorem, sodales eu
+                convallis sed, faucibus sed lectus. Etiam interdum non dolor
+                at maximus. Morbi nec sem neque. Fusce sed viverra lorem.
+                Fusce vel sodales tellus, id vehicula ex. Vivamus ornare
+                ultrices nulla.
+              </p>
+
+              <p>
+                Aenean sollicitudin viverra turpis, sed viverra neque
+                hendrerit vel. Nam at tincidunt velit, sed tristique nisl. In
+                vel venenatis mi. Pellentesque ultricies congue accumsan. Nunc
+                id interdum augue, et aliquet purus. Proin auctor turpis quis
+                mi aliquet, ut iaculis dui vehicula. Sed quis massa nec neque
+                lobortis venenatis in eget purus. Nunc neque nisi, suscipit eu
+                semper vitae, porta vel augue. Sed facilisis ullamcorper
+                nulla. Morbi convallis dolor at eleifend ullamcorper. Proin eu
+                iaculis arcu. Nam nulla lorem, accumsan id magna a, tincidunt
+                venenatis nisl. Etiam nec euismod leo. Integer rutrum
+                condimentum tellus sit amet convallis.
+              </p>
+
+              <p>
+                Etiam tempus vehicula mauris vel efficitur. Aliquam erat
+                volutpat. Nullam in bibendum lorem, quis viverra risus. Cras
+                tempor egestas turpis, ac mattis quam fringilla a. Integer eu
+                turpis ex. Curabitur eleifend eu lacus id viverra. Cras
+                aliquam quam et nisl pulvinar, sit amet posuere odio rhoncus.
+                Donec venenatis tincidunt cursus. Donec molestie, nulla sed
+                pharetra consectetur, nibh urna eleifend lorem, quis faucibus
+                elit eros varius quam. Maecenas libero nisi, vulputate viverra
+                orci non, commodo hendrerit ex. Quisque aliquet facilisis nisl
+                facilisis ultrices. Sed quis fringilla purus. Vivamus
+                ultricies porta neque, non feugiat lectus accumsan id. Class
+                aptent taciti sociosqu ad litora torquent per conubia nostra,
+                per inceptos himenaeos.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- End of third accordion section (JavaScript) -->
+      </div>
+      <!-- End of Accordion section -->
+    </div>
+  </section>
+
+  <!-- Start of Contact Me section-->
+  <section>
+    <!-- Start of container -->
+    <div class="container">
+      <h1 class="text-center">Contact Me</h1>
+
+      <!-- Start of section for contact methods -->
+      <div class="container text-center">
+        <div class="row align-items-center">
+          <!-- Start of email section -->
+          <div class="col">
+            <p>
+              <a href="mailto:sardar.jafari@gmail.com"
+                class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">
+                sardar.jafari@gmail.com</a>
+
+              <!-- Display envelope icon -->
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                <path
+                  d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+              </svg>
+            </p>
+          </div>
+          <!-- End of email section -->
+
+          <!-- Start of phone section -->
+          <div class="col">
+            <p>
+              07900606229
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+              </svg>
+            </p>
+          </div>
+          <!-- End of phone section -->
+
+          <!-- Start of LinkedIn section -->
+          <div class="col">
+            <p>
+              <a href="https://www.linkedin.com/in/sardar--jafari/" target="_blank"
+                class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">
+                LinkedIn
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-linkedin" viewBox="0 0 16 16">
                   <path
-                    d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"
-                  />
+                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401m-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4" />
                 </svg>
-              </p>
-            </div>
-            <!-- End of email section -->
-
-            <!-- Start of phone section -->
-            <div class="col">
-              <p>
-                07900606229
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-telephone-fill"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
-                  />
-                </svg>
-              </p>
-            </div>
-            <!-- End of phone section -->
-
-            <!-- Start of LinkedIn section -->
-            <div class="col">
-              <p>
-                <a
-                  href="https://www.linkedin.com/in/sardar--jafari/"
-                  target="_blank"
-                  class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
-                >
-                  LinkedIn
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="currentColor"
-                    class="bi bi-linkedin"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401m-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4"
-                    />
-                  </svg>
-                </a>
-              </p>
-            </div>
-            <!-- End of LinkedIn section -->
-
-            <!-- Start of GitHub section -->
-            <div class="col">
-              <p>
-                <a
-                  href="https://github.com/046159"
-                  target="_blank"
-                  class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
-                >
-                  GitHub
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="currentColor"
-                    class="bi bi-github"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8"
-                    />
-                  </svg>
-                </a>
-              </p>
-            </div>
-            <!-- End of GitHub section -->
+              </a>
+            </p>
           </div>
+          <!-- End of LinkedIn section -->
+
+          <!-- Start of GitHub section -->
+          <div class="col">
+            <p>
+              <a href="https://github.com/046159" target="_blank"
+                class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">
+                GitHub
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                </svg>
+              </a>
+            </p>
+          </div>
+          <!-- End of GitHub section -->
         </div>
-        <!-- End of section for contact methods -->
-
       </div>
-      <!-- End of container section -->
+      <!-- End of section for contact methods -->
+    </div>
+    <!-- End of container section -->
+  </section>
+  <!-- End of Contact Me Section -->
 
-    </section>
-    <!-- End of Contact Me Section -->
+  <!-- Start of Bootstrap link for JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <!-- End of Bootstrap link for JavaScript -->
+</body>
 
-    <!-- Start of Bootstrap link for JavaScript -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
-    <!-- End of Bootstrap link for JavaScript -->
-
-  </body>
 </html>

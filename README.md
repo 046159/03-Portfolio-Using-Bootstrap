@@ -6,6 +6,10 @@ This project was about developing a personal portfolio website based on an examp
 
 The URL for the application is: https://046159.github.io/Bootstrap-Portfolio/
 
+Below is a screenshot of the completed application:
+
+![Screenshot of the completed Bootstrap Portfolio application](./images/website-screenshot.jpeg)
+
 ## Usage 
 
 * The navigation bar takes you to the relevant sections of the portfolio.

@@ -1,9 +1,10 @@
+/* Change color of text on Navbar to white */
 .nav-link,
 .navbar-brand {
   color: white;
 }
 
+/* Set the background color for the page */
 body {
   background-color: rgb(244, 255, 220);
 }
-

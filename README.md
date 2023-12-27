@@ -4,7 +4,7 @@
 
 This project was about developing a personal portfolio website based on an example provided and to link to exiting portfolio where available. This was very similar to Challene 2; however, this time the objective  was to use Bootstrap.
 
-The URL for the application is: https://046159.github.io/Bootstrap-Portfolio/
+The URL for the application is: https://046159.github.io/03-Portfolio-Using-Bootstrap/
 
 Below is a screenshot of the completed application:
 
